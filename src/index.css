@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: black;
+}
+
+.square{
+  margin: 3px 3px;
+  border-radius: 5px;
+}
+
+
+.TodoCenter{
+  display: flex;
+  flex-direction: column;;
+  position: absolute;
+  border-radius: 6px;
+  padding: 3px;
+  margin-top: 10px;
+  background-color: aliceblue;
+}
+
+.outer{
+  background-color: lightskyblue;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+h3{
+  text-align: center;
+  margin: 0 4px;
+}
